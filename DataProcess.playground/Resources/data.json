@@ -1,0 +1,133 @@
+[
+    {
+        "question": "生命形式",
+        "id": "FORM001",
+        "options": [
+            {
+                "name": "人类",
+                "id": "OP001",
+                "children": [
+                    {
+                        "question": "性别",
+                        "id": "FORM002",
+                        "options": [
+                            {
+                                "name": "男",
+                                "id": "OP002",
+                                "children": []
+                            },
+                            {
+                                "name": "女",
+                                "id": "OP003",
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "question": "是否有飞行驾照",
+                        "id": "FORM003",
+                        "options": [
+                            {
+                                "name": "无",
+                                "id": "OP004",
+                                "children": []
+                            },
+                            {
+                                "name": "有",
+                                "id": "OP005",
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "外星人",
+                "id": "OP006",
+                "children": []
+            }
+        ]
+    },
+    {
+        "question": "住址",
+        "id": "FORM004",
+        "options": [
+            {
+                "name": "赛博坦星球",
+                "id": "OP007",
+                "children": []
+            },
+            {
+                "name": "地球",
+                "id": "OP008",
+                "children": [
+                    {
+                        "question": "国家",
+                        "id": "FORM005",
+                        "options": [
+                            {
+                                "name": "中国",
+                                "id": "OP009",
+                                "children": [
+                                    {
+                                        "question": "省份",
+                                        "id": "FORM006",
+                                        "options": [
+                                            {
+                                                "name": "云南",
+                                                "id": "OP010",
+                                                "children": []
+                                            },
+                                            {
+                                                "name": "北京",
+                                                "id": "OP011",
+                                                "children": []
+                                            },
+                                            {
+                                                "name": "新疆",
+                                                "id": "OP012",
+                                                "children": []
+                                            },
+                                            {
+                                                "name": "浙江",
+                                                "id": "OP013",
+                                                "children": []
+                                            },
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "日本",
+                                "id": "OP014",
+                                "children": [
+                                    {
+                                        "question": "地区",
+                                        "id": "FORM007",
+                                        "options": [
+                                            {
+                                                "name": "陆地",
+                                                "id": "OP015",
+                                                "children": []
+                                            },
+                                            {
+                                                "name": "海上",
+                                                "id": "OP016",
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "美国",
+                                "id": "OP017",
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]
